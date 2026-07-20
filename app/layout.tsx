@@ -6,7 +6,6 @@ import { getLocaleFromCookies } from '@/lib/locale';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import GlobalAtmosphere from '@/components/GlobalAtmosphere';
 
 const fraunces = Fraunces({
   subsets: ['latin'],
@@ -42,7 +41,6 @@ export default async function RootLayout({
   return (
     <html lang={locale} dir={localeDirections[locale]} className={`${fraunces.variable} ${inter.variable} ${jbMono.variable}`}>
       <body className="relative isolate flex min-h-screen flex-col overflow-x-hidden bg-cream">
-        <GlobalAtmosphere />
         <div className="relative z-10 flex min-h-screen flex-col">
           <Navbar locale={locale} />
           <main className="flex-1">{children}</main>
