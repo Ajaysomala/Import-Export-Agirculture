@@ -1,0 +1,35 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" 
+    xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="900" fill="#1B1B1B" rx="48" />
+    <defs>
+        <radialGradient id="bgGlow" cx="50%" cy="40%" r="62%">
+            <stop offset="0%" stop-color="#343434" />
+            <stop offset="60%" stop-color="#1B1B1B" />
+            <stop offset="100%" stop-color="#121212" />
+        </radialGradient>
+        <linearGradient id="bananaSkin" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#FFF0A0" />
+            <stop offset="45%" stop-color="#FFD94B" />
+            <stop offset="100%" stop-color="#C7A11D" />
+        </linearGradient>
+        <filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%">
+            <feGaussianBlur stdDeviation="10" />
+        </filter>
+    </defs>
+    <rect width="1200" height="900" fill="url(#bgGlow)" rx="48" />
+    <ellipse cx="618" cy="712" rx="210" ry="44" fill="#000" opacity="0.38" filter="url(#softShadow)" />
+    <g transform="translate(235 132)">
+        <path d="M186 322C200 240 250 188 334 158C352 182 358 204 356 228C348 294 320 354 268 408C220 392 192 364 186 322Z" fill="url(#bananaSkin)"/>
+        <path d="M204 318C220 252 262 212 320 188C326 206 328 222 326 240C318 294 294 340 252 382C224 368 208 348 204 318Z" fill="#FFECA0" opacity="0.92"/>
+        <path d="M324 162C332 136 348 118 372 102" stroke="#7B4F1C" stroke-width="10" stroke-linecap="round"/>
+        <path d="M184 322C168 252 142 202 108 168C126 148 150 140 176 144C194 176 204 214 206 258C206 286 202 308 184 322Z" fill="url(#bananaSkin)" transform="rotate(-18 186 322)"/>
+        <path d="M220 308C206 246 188 202 162 166C176 152 194 148 216 150C228 186 234 230 232 276C232 294 228 302 220 308Z" fill="#FFF1B7" opacity="0.9" transform="rotate(-18 186 322)"/>
+        <path d="M170 164C176 136 190 116 212 98" stroke="#7B4F1C" stroke-width="9" stroke-linecap="round"/>
+        <path d="M282 180C290 156 308 138 330 124" stroke="#7B4F1C" stroke-width="9" stroke-linecap="round"/>
+        <path d="M168 364C154 294 132 242 104 208C118 190 136 182 158 184C174 210 184 244 188 286C190 316 188 344 168 364Z" fill="url(#bananaSkin)" transform="rotate(-8 186 322)"/>
+        <path d="M186 356C176 302 162 260 144 226C154 214 168 210 182 212C194 240 202 274 204 310C204 330 200 348 186 356Z" fill="#FFF4BF" opacity="0.85" transform="rotate(-8 186 322)"/>
+        <path d="M92 170C108 132 132 114 162 104" stroke="#7B4F1C" stroke-width="9" stroke-linecap="round"/>
+        <path d="M214 94C236 86 258 88 280 98" stroke="#7B4F1C" stroke-width="9" stroke-linecap="round"/>
+        <path d="M240 196C268 210 286 228 298 250" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="18" stroke-linecap="round"/>
+    </g>
+</svg>

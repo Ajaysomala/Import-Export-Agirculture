@@ -1,0 +1,51 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+    <defs>
+        <radialGradient id="bg" cx="50%" cy="36%" r="72%">
+            <stop offset="0%" stop-color="#323232"/>
+            <stop offset="100%" stop-color="#161616"/>
+        </radialGradient>
+        <radialGradient id="purpleBerry" cx="34%" cy="30%" r="68%">
+            <stop offset="0%" stop-color="#F0B7F7"/>
+            <stop offset="40%" stop-color="#8F4FA0"/>
+            <stop offset="82%" stop-color="#5A1F58"/>
+            <stop offset="100%" stop-color="#30102D"/>
+        </radialGradient>
+        <radialGradient id="purpleBerryDark" cx="34%" cy="30%" r="68%">
+            <stop offset="0%" stop-color="#D98AE0"/>
+            <stop offset="52%" stop-color="#6D2E7E"/>
+            <stop offset="100%" stop-color="#2A0C2D"/>
+        </radialGradient>
+        <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#8DD26D"/>
+            <stop offset="100%" stop-color="#315C26"/>
+        </linearGradient>
+    </defs>
+    <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+    <ellipse cx="101" cy="171" rx="45" ry="11" fill="#000" opacity="0.38"/>
+    <path d="M100 26C102 46 100 62 97 78" stroke="#7A5B3A" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M98 42C80 50 70 61 62 74" stroke="#6F5130" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M100 46C118 56 132 68 144 82" stroke="#6F5130" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M74 55C67 42 60 36 50 30C59 30 69 32 79 39C80 46 78 51 74 55Z" fill="url(#leaf)"/>
+    <path d="M84 52C82 36 86 26 95 18C98 29 98 39 93 50C89 53 86 54 84 52Z" fill="#4E8C3E"/>
+    <g>
+        <circle cx="74" cy="78" r="18" fill="url(#purpleBerryDark)"/>
+        <circle cx="99" cy="72" r="19" fill="url(#purpleBerry)"/>
+        <circle cx="123" cy="78" r="18" fill="url(#purpleBerryDark)"/>
+        <circle cx="61" cy="102" r="17" fill="url(#purpleBerry)"/>
+        <circle cx="87" cy="98" r="18" fill="url(#purpleBerryDark)"/>
+        <circle cx="113" cy="100" r="18" fill="url(#purpleBerry)"/>
+        <circle cx="138" cy="104" r="17" fill="url(#purpleBerryDark)"/>
+        <circle cx="71" cy="126" r="18" fill="url(#purpleBerryDark)"/>
+        <circle cx="98" cy="126" r="18" fill="url(#purpleBerry)"/>
+        <circle cx="124" cy="126" r="17" fill="url(#purpleBerryDark)"/>
+        <circle cx="84" cy="148" r="16" fill="url(#purpleBerry)"/>
+        <circle cx="110" cy="150" r="15" fill="url(#purpleBerryDark)"/>
+        <circle cx="96" cy="90" r="4" fill="#FFF" opacity="0.55"/>
+        <circle cx="118" cy="90" r="3.5" fill="#FFF" opacity="0.5"/>
+        <circle cx="77" cy="110" r="3.5" fill="#FFF" opacity="0.45"/>
+        <circle cx="103" cy="110" r="4" fill="#FFF" opacity="0.5"/>
+        <circle cx="127" cy="112" r="3.5" fill="#FFF" opacity="0.45"/>
+        <circle cx="95" cy="132" r="3.5" fill="#FFF" opacity="0.45"/>
+    </g>
+</svg>

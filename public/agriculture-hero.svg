@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <!-- Sky background -->
+  <rect width="800" height="400" fill="#E0F7FA"/>
+  <circle cx="700" cy="80" r="40" fill="#FFF59D"/>
+  
+  <!-- Distant mountains/hills -->
+  <path d="M0,300 Q150,200 350,280 T800,240 L800,400 L0,400 Z" fill="#81C784"/>
+  
+  <!-- Foreground field -->
+  <path d="M0,340 Q250,280 500,330 T800,300 L800,400 L0,400 Z" fill="#4CAF50"/>
+  
+  <!-- Farm rows / Perspective lines -->
+  <path d="M150,400 L300,310 M300,400 L400,320 M450,400 L500,325 M650,400 L620,315" stroke="#388E3C" stroke-width="4"/>
+  
+  <!-- Small sprout graphics in the field -->
+  <path d="M200,360 Q195,350 190,352 M200,360 Q205,348 212,350" stroke="#1B5E20" stroke-width="3" fill="none"/>
+  <path d="M480,350 Q475,340 470,342 M480,350 Q485,338 492,340" stroke="#1B5E20" stroke-width="3" fill="none"/>
+  <path d="M600,365 Q595,355 590,357 M600,365 Q605,353 612,355" stroke="#1B5E20" stroke-width="3" fill="none"/>
+</svg>

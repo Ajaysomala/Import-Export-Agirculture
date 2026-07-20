@@ -1,0 +1,37 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+    <defs>
+        <radialGradient id="bg" cx="50%" cy="38%" r="74%">
+            <stop offset="0%" stop-color="#303030"/>
+            <stop offset="100%" stop-color="#151515"/>
+        </radialGradient>
+        <radialGradient id="tomatoBody" cx="38%" cy="32%" r="68%">
+            <stop offset="0%" stop-color="#FF6D60"/>
+            <stop offset="45%" stop-color="#E2261A"/>
+            <stop offset="100%" stop-color="#8E0D0A"/>
+        </radialGradient>
+        <linearGradient id="tomatoGloss" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.72"/>
+            <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="stemGreen" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#8DD26A"/>
+            <stop offset="100%" stop-color="#2E6A23"/>
+        </linearGradient>
+    </defs>
+    <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+    <ellipse cx="100" cy="171" rx="54" ry="12" fill="#000" opacity="0.38"/>
+    <circle cx="74" cy="98" r="34" fill="url(#tomatoBody)"/>
+    <circle cx="128" cy="94" r="38" fill="url(#tomatoBody)"/>
+    <circle cx="84" cy="138" r="32" fill="url(#tomatoBody)"/>
+    <path d="M126 56C132 36 144 28 160 26C162 40 158 52 150 64C140 64 132 62 126 56Z" fill="url(#stemGreen)"/>
+    <path d="M72 60C66 40 54 32 38 30C36 44 40 56 48 68C58 68 66 66 72 60Z" fill="url(#stemGreen)"/>
+    <path d="M98 58C104 38 114 30 128 28C130 40 126 54 120 64C110 64 104 62 98 58Z" fill="#4D8C36"/>
+    <path d="M58 54C72 44 86 40 102 42C104 52 100 60 92 68C76 66 64 62 58 54Z" fill="url(#stemGreen)"/>
+    <path d="M112 54C126 44 140 40 156 42C158 52 154 60 146 68C130 66 118 62 112 54Z" fill="url(#stemGreen)"/>
+    <path d="M96 46C98 30 104 20 116 14C118 28 116 38 110 48C104 50 100 50 96 46Z" fill="#446B1F"/>
+    <ellipse cx="70" cy="82" rx="16" ry="10" transform="rotate(-18 70 82)" fill="url(#tomatoGloss)"/>
+    <path d="M123 96C124 86 130 82 138 82C140 90 138 98 132 104C128 104 125 102 123 96Z" fill="#FFFFFF" opacity="0.2"/>
+    <path d="M160 94C160 112 158 126 152 138C138 144 126 146 114 144C118 124 126 110 140 100C148 96 154 94 160 94Z" fill="#F6A089" opacity="0.82"/>
+    <path d="M132 104C138 96 148 90 160 88C162 98 160 108 154 116C144 118 136 116 132 104Z" fill="#FFD9C8" opacity="0.35"/>
+</svg>

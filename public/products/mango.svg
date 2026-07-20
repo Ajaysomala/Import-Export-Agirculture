@@ -1,0 +1,36 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" 
+    xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="900" rx="48" fill="#1A1A1A"/>
+    <defs>
+        <radialGradient id="bg" cx="50%" cy="36%" r="70%">
+            <stop offset="0%" stop-color="#333333"/>
+            <stop offset="100%" stop-color="#161616"/>
+        </radialGradient>
+        <linearGradient id="mangoSkin" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#FFCE4B"/>
+            <stop offset="42%" stop-color="#E9982B"/>
+            <stop offset="100%" stop-color="#B86512"/>
+        </linearGradient>
+        <linearGradient id="mangoSkin2" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FFE66B"/>
+            <stop offset="100%" stop-color="#F0A726"/>
+        </linearGradient>
+        <filter id="shadow" x="-20%" y="-20%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="8"/>
+        </filter>
+    </defs>
+    <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+    <ellipse cx="620" cy="706" rx="214" ry="45" fill="#000" opacity="0.38" filter="url(#shadow)"/>
+    <g transform="translate(236 146)">
+        <path d="M286 96C352 112 410 164 430 236C454 324 426 418 364 474C296 536 190 550 118 496C48 444 20 350 48 260C80 162 164 100 264 92C274 106 280 110 286 96Z" fill="url(#mangoSkin)"/>
+        <path d="M286 114C338 134 378 178 392 236C408 302 386 372 338 414C286 460 210 470 156 436C112 408 96 360 106 300C120 216 190 146 272 132C282 122 280 118 286 114Z" fill="url(#mangoSkin2)" opacity="0.82"/>
+        <path d="M198 136C218 120 244 110 270 106C274 122 270 142 258 164C238 156 220 148 198 136Z" fill="#7AAE5C"/>
+        <path d="M206 128C212 110 222 96 238 84C242 102 240 118 230 136C220 138 212 136 206 128Z" fill="#4C7D39"/>
+        <path d="M348 120C382 96 418 88 456 94C448 126 432 150 406 168C386 156 366 140 348 120Z" fill="#A7D36E"/>
+        <path d="M346 128C366 102 392 86 422 78C426 96 422 114 412 132C394 136 376 136 346 128Z" fill="#5C9C45"/>
+        <path d="M408 262C434 260 456 264 474 274C466 286 454 298 438 306C428 292 418 280 408 262Z" fill="#DFA13E" opacity="0.7"/>
+        <path d="M368 310C394 324 412 344 424 372C406 378 390 378 372 372C364 350 362 330 368 310Z" fill="#FFF0A8" opacity="0.6"/>
+        <path d="M218 188C244 168 274 158 308 158C318 176 318 194 310 214C282 212 252 204 218 188Z" fill="#FFF0C7" opacity="0.32"/>
+        <path d="M266 432C302 416 328 390 346 356" stroke="#FFF5C6" stroke-width="14" stroke-linecap="round" opacity="0.35"/>
+    </g>
+</svg>

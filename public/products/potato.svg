@@ -1,0 +1,39 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" 
+    xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="900" rx="48" fill="#1B1B1B"/>
+    <defs>
+        <radialGradient id="bg" cx="50%" cy="40%" r="72%">
+            <stop offset="0%" stop-color="#343434"/>
+            <stop offset="100%" stop-color="#151515"/>
+        </radialGradient>
+        <radialGradient id="potatoSkin" cx="38%" cy="30%" r="68%">
+            <stop offset="0%" stop-color="#E6C89B"/>
+            <stop offset="44%" stop-color="#C7A26A"/>
+            <stop offset="100%" stop-color="#8A6A3F"/>
+        </radialGradient>
+        <filter id="shadow" x="-20%" y="-20%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="8"/>
+        </filter>
+    </defs>
+    <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+    <ellipse cx="620" cy="706" rx="232" ry="48" fill="#000" opacity="0.36" filter="url(#shadow)"/>
+    <g transform="translate(240 220)">
+        <path d="M196 216C188 140 248 92 322 88C416 84 478 148 480 230C482 322 420 402 322 444C226 402 190 320 196 216Z" fill="url(#potatoSkin)"/>
+        <path d="M232 216C228 162 274 126 330 124C396 122 432 168 434 228C436 294 390 350 330 374C272 350 228 294 232 216Z" fill="#D6B788" opacity="0.86"/>
+        <path d="M312 140C320 126 336 118 350 114" stroke="#7A5A33" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+        <path d="M246 156C252 144 262 138 274 134" stroke="#7A5A33" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+        <circle cx="272" cy="184" r="4" fill="#8A6A3F" opacity="0.72"/>
+        <circle cx="368" cy="206" r="4" fill="#8A6A3F" opacity="0.72"/>
+        <circle cx="298" cy="282" r="4" fill="#8A6A3F" opacity="0.72"/>
+        <circle cx="356" cy="316" r="4" fill="#8A6A3F" opacity="0.72"/>
+        <circle cx="240" cy="250" r="4" fill="#8A6A3F" opacity="0.72"/>
+        <path d="M118 250C126 186 162 146 220 126C224 152 220 182 210 212C194 236 172 250 148 258C138 258 128 256 118 250Z" fill="url(#potatoSkin)" opacity="0.96"/>
+        <path d="M108 246C118 202 142 172 180 156C184 172 182 192 174 214C160 230 142 240 122 246C116 248 112 248 108 246Z" fill="#E0C08B" opacity="0.84"/>
+        <path d="M478 248C486 184 522 144 580 124C584 150 580 180 570 210C554 234 532 248 508 256C498 256 488 254 478 248Z" fill="url(#potatoSkin)" opacity="0.96"/>
+        <path d="M468 244C478 200 502 170 540 154C544 170 542 190 534 212C520 228 502 238 482 244C476 246 472 246 468 244Z" fill="#E1C392" opacity="0.82"/>
+        <path d="M446 216C468 214 488 218 506 228" stroke="#FFF3D2" stroke-width="6" stroke-linecap="round" opacity="0.3"/>
+        <path d="M160 238C182 236 204 240 222 250" stroke="#FFF3D2" stroke-width="6" stroke-linecap="round" opacity="0.28"/>
+        <path d="M304 306C336 324 356 350 366 382C344 388 324 390 304 386C294 358 294 330 304 306Z" fill="#F6E4B6" opacity="0.9"/>
+        <circle cx="334" cy="330" r="10" fill="#D0AA65" opacity="0.5"/>
+    </g>
+</svg>

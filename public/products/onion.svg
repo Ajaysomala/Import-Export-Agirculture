@@ -1,0 +1,35 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+    <defs>
+        <radialGradient id="bg" cx="50%" cy="40%" r="72%">
+            <stop offset="0%" stop-color="#2F2F2F"/>
+            <stop offset="100%" stop-color="#171717"/>
+        </radialGradient>
+        <radialGradient id="onionSkin" cx="45%" cy="35%" r="72%">
+            <stop offset="0%" stop-color="#FFD7A4"/>
+            <stop offset="42%" stop-color="#D88B4E"/>
+            <stop offset="84%" stop-color="#A85020"/>
+            <stop offset="100%" stop-color="#6B240B"/>
+        </radialGradient>
+        <linearGradient id="onionRidge" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.34"/>
+            <stop offset="100%" stop-color="#3B1204" stop-opacity="0.08"/>
+        </linearGradient>
+    </defs>
+    <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+    <ellipse cx="100" cy="171" rx="52" ry="12" fill="#000" opacity="0.36"/>
+    <g>
+        <path d="M100 32C72 62 49 84 46 115C42 150 64 170 100 172C136 170 158 150 154 115C151 84 128 62 100 32Z" fill="url(#onionSkin)"/>
+        <path d="M100 40C80 63 64 82 60 110C56 138 72 156 100 160C128 156 144 138 140 110C136 82 120 63 100 40Z" fill="#FFF2D7" opacity="0.18"/>
+        <g stroke="url(#onionRidge)" stroke-width="1.4" fill="none" opacity="0.8">
+            <path d="M100 33C80 61 63 84 60 112C58 136 69 155 92 169"/>
+            <path d="M100 33C64 64 58 94 63 124C68 145 77 160 92 169"/>
+            <path d="M100 33C120 61 136 84 140 112C142 136 131 155 108 169"/>
+            <path d="M100 33C136 64 142 94 137 124C132 145 123 160 108 169"/>
+        </g>
+        <path d="M92 30C94 16 97 8 100 2C104 9 106 17 108 30C104 34 96 34 92 30Z" fill="#6B4627"/>
+        <path d="M70 171C66 181 64 188 62 193C70 189 76 183 80 176C78 173 74 172 70 171Z" fill="#B58C67"/>
+        <path d="M130 171C134 181 136 188 138 193C130 189 124 183 120 176C122 173 126 172 130 171Z" fill="#B58C67"/>
+        <circle cx="86" cy="88" r="14" fill="#FFF5E0" opacity="0.14"/>
+    </g>
+</svg>
