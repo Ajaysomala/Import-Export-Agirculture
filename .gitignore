@@ -1,5 +1,7 @@
 node_modules/
 .next/
+.open-next/
+.wrangler/
 .vscode/
 .env
 .env.local
