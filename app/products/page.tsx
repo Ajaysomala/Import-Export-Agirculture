@@ -16,13 +16,11 @@ export default async function ProductsPage() {
   return (
     <section className="wrap py-20">
       <div className="max-w-[60ch] mb-11">
-        <span className="eyebrow">{copy.productsPage.eyebrow}</span>
-        <h1 className="mt-2 text-4xl font-semibold">{copy.productsPage.title}</h1>
-        <p className="mt-3 text-ink-soft">
-          {copy.productsPage.body}
-        </p>
+        <span className="eyebrow">{copy.nav.products}</span>
+        <h1 className="mt-2 text-4xl font-semibold">The full export catalog.</h1>
+        <p className="mt-3 text-ink-soft">{copy.home.featuredBody}</p>
       </div>
-      <ProductGrid products={products} locale={locale} />
+      <ProductGrid products={products} copy={copy} />
     </section>
   );
 }

@@ -1,38 +1,31 @@
 import Link from 'next/link';
-import { getCopy, type Locale } from '@/lib/i18n';
+import type { SiteCopy } from '@/lib/i18n';
 
-export default function Footer({ locale }: { locale: Locale }) {
-  const copy = getCopy(locale);
-
+export default function Footer({ copy }: { copy: SiteCopy }) {
   return (
-    <footer className="border-t border-forest/10 bg-white">
+    <footer className="border-t border-forest/10 bg-forest-dark text-cream">
       <div className="wrap py-14 grid gap-10 sm:grid-cols-3">
         <div>
-          <span className="font-display text-lg text-forest">Abhi Global Exports</span>
-          <p className="mt-3 text-sm text-ink-soft max-w-[32ch]">
-            {copy.footer.description}
-          </p>
+          <span className="font-display text-lg text-cream">Abhi Global Exports</span>
+          <p className="mt-3 text-sm text-cream/60 max-w-[32ch]">{copy.footer.tagline}</p>
         </div>
         <div>
-          <span className="eyebrow text-forest">{copy.footer.navigate}</span>
-          <ul className="mt-3 space-y-2 text-sm text-ink-soft">
-            <li><Link href="/products" className="hover:text-forest">{getCopy(locale).nav.products}</Link></li>
-            <li><Link href="/about" className="hover:text-forest">{getCopy(locale).nav.about}</Link></li>
-            <li><Link href="/contact" className="hover:text-forest">{getCopy(locale).nav.quote}</Link></li>
+          <span className="font-mono text-[0.68rem] uppercase tracking-[0.15em] text-gold">{copy.footer.navigate}</span>
+          <ul className="mt-3 space-y-2 text-sm text-cream/80">
+            <li><Link href="/products" className="hover:text-gold">{copy.nav.products}</Link></li>
+            <li><Link href="/about" className="hover:text-gold">{copy.nav.about}</Link></li>
+            <li><Link href="/contact" className="hover:text-gold">{copy.nav.getQuote}</Link></li>
           </ul>
         </div>
         <div>
-          <span className="eyebrow text-forest">{copy.footer.reachUs}</span>
-          <ul className="mt-3 space-y-2 text-sm text-ink-soft">
+          <span className="font-mono text-[0.68rem] uppercase tracking-[0.15em] text-gold">{copy.footer.reach}</span>
+          <ul className="mt-3 space-y-2 text-sm text-cream/80">
             <li>abhiglobalexports@gmail.com</li>
-            {/* TODO(BACKEND): pull the live WhatsApp number from a config
-                doc instead of hardcoding, so it can be changed without a
-                redeploy */}
             <li>WhatsApp: +91 96034 56927</li>
           </ul>
         </div>
       </div>
-      <div className="wrap py-6 border-t border-forest/10 text-xs text-ink-soft">
+      <div className="wrap py-6 border-t border-cream/10 text-xs text-cream/40">
         © {new Date().getFullYear()} Abhi Global Exports. All rights reserved.
       </div>
     </footer>

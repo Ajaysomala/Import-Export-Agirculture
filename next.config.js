@@ -2,12 +2,15 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    // TODO(BACKEND): add your real image domains here once product photos
-    // are served from Firebase Storage, e.g. 'firebasestorage.googleapis.com'
     remotePatterns: [
       { protocol: 'https', hostname: 'firebasestorage.googleapis.com' },
     ],
+    // Local product illustrations in /public/products are trusted, static,
+    // designer-made SVGs (not user-uploaded), so it's safe to let
+    // next/image optimize them.
+    dangerouslyAllowSVG: true,
+    contentDispositionType: 'attachment',
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
 };
-
 module.exports = nextConfig;

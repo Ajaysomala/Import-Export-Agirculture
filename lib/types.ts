@@ -1,6 +1,3 @@
-// Shared domain types. These mirror the Firestore document shapes so the
-// frontend and backend (Cloud Functions) agree on structure.
-
 export type ProductAccent = 'gold' | 'clay' | 'plum' | 'lime';
 
 export interface Product {
@@ -8,14 +5,17 @@ export interface Product {
   name: string;
   variety: string;
   category: 'Grains & Cereals' | 'Fresh Produce' | 'Organic & Premium';
-  stamp: string; // e.g. "EXPORT GRADE", "PREMIUM"
-  accent: ProductAccent; // drives the card's glow/border colour
+  stamp: string;
+  accent: ProductAccent;
   desc: string;
   origin: string;
   size: string;
   packaging: string;
   season: string;
-  imageUrl?: string; // TODO(BACKEND): populate from Firebase Storage URL
+  imageUrl: string; // Currently a designer SVG illustration in /public/products.
+                     // TODO(CONTENT — optional): swap for a licensed product
+                     // photo (.jpg/.png) later if you want real photography
+                     // instead — no component changes needed either way.
 }
 
 export interface QuoteRequest {
@@ -27,7 +27,6 @@ export interface QuoteRequest {
   email: string;
   phone: string;
   message: string;
-  // TODO(BACKEND): server sets these on write, not the client
   createdAt?: string;
   status?: 'new' | 'contacted' | 'closed';
 }
